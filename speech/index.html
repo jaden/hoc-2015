@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BrowserSpeak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" v-cloak>
+
+        <input type="text" v-model="message"></input>
+
+        <select v-model="voice_id">
+            <option v-for="voice in voices" v-bind:value="$index">
+                {{ voice.name }}
+            </option>
+        </select>
+
+        <div style="margin-top: 20px">
+            <button v-on:click="speak">Speak</button>
+        </div>
+
+    </div>
+
+    <script src="vue.min.js"></script>
+    <script src="voices.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+#app {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#app label {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#app input {
+    height: 50px;
+    font-size: 35px;
+    padding: 10px;
+}
+
+#app select {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 40px;
+}
+
+#app button {
+    background-color: #4fc08d;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #3aa373;
+    border-radius: 4px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#app button:hover {
+    background-color: #5dc596;
+}
+
+ul.results {
+    list-style: none;
+}
+
+ul.results li {
+    font-size: 40px;
+}
+
+[v-cloak] {
+  display: none;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Math</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app" v-cloak>
+
+        <label>A number:</label>
+        <input type="text" v-model="number" v-on:keyup="times" placeholder="Enter a number" autofocus></input>
+
+        <label style="margin-left: 20px">Multiply up to:</label>
+        <input type="text" v-model="max" v-on:keyup="times"></input>
+
+        <ul class="results">
+            <li v-for="result in results">
+                {{{ result }}}
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="vue.min.js"></script>
+    <script src="math.js"></script>
+
+</body>
+</html>

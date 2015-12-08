@@ -1,0 +1,35 @@
+#app {
+    text-align: center;
+}
+
+#app input {
+    width: 80%;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#app select {
+    margin-top: 20px;
+    font-size: 18px;
+    height: 40px;
+}
+
+#app button {
+    background-color: #4fc08d;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #3aa373;
+    border-radius: 4px;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#app button:hover {
+    background-color: #5dc596;
+}
+
+[v-cloak] {
+  display: none;
+}
