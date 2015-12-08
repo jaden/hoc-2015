@@ -87,13 +87,13 @@ For example, `times(2);` would print out 2, 4, 6... (2 x 1, 2 x 2, 2 x 3, etc)
 
 **Math products**
 
-This [web page](math/index.html) does the same thing as the function we created above.
+This [web page](http://jaden.github.io/hoc-2015/math/index.html) does the same thing as the function we created above.
 
 *Note: Hit F12 to see the code. It's quite similar to the code we wrote.*
 
 **Fun with speech**
 
-Get your [web browser to talk](speech/index.html). (Chrome only)
+Get your [web browser to talk](http://jaden.github.io/hoc-2015/speech/index.html). (Chrome only)
 
 ## Last 30 minutes
 
